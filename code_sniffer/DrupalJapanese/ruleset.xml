@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset name="DrupalJapanese">
+  <description>Drupal Coding Standard For Japanese.</description>
+
+  <arg name="encoding" value="utf-8"/>
+
+  <!-- Drupalを継承 -->
+  <rule ref="Drupal">
+    <!-- 日本語用に不要な検証を除外 -->
+    <exclude name="Drupal.Commenting.DocComment.ShortNotCapital" />
+  </rule>
+</ruleset>
+
