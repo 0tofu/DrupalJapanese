@@ -1,0 +1,17 @@
+{
+    "name": "0tofu/drupal-japanese",
+    "description": "Drupal Coding Standard For Japanese.",
+    "type": "phpcodesniffer-standard",
+    "license": "MIT",
+    "homepage": "https://github.com/0tofu/DrupalJapanese",
+    "authors": [
+        {
+            "name": "Motoki Kobayashi",
+            "email": "otofu.xxx@gmail.com"
+        }
+    ],
+    "require": {
+      "drupal/coder": "^8.2.12"
+    }
+}
+
