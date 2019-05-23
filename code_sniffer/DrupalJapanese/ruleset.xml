@@ -8,6 +8,7 @@
   <rule ref="Drupal">
     <!-- 日本語用に不要な検証を除外 -->
     <exclude name="Drupal.Commenting.DocComment.ShortNotCapital" />
+    <exclude name="Drupal.Commenting.FunctionComment.ParamCommentNotCapital" />
   </rule>
 </ruleset>
 
